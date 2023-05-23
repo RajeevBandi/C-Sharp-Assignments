@@ -1,0 +1,8 @@
+C:\Users\Rajeev Bandi\source\repos\Q2_Greatest_Product\Q2_Greatest_Product\bin\Debug\Q2_Greatest_Product.exe.config
+C:\Users\Rajeev Bandi\source\repos\Q2_Greatest_Product\Q2_Greatest_Product\bin\Debug\Q2_Greatest_Product.exe
+C:\Users\Rajeev Bandi\source\repos\Q2_Greatest_Product\Q2_Greatest_Product\bin\Debug\Q2_Greatest_Product.pdb
+C:\Users\Rajeev Bandi\source\repos\Q2_Greatest_Product\Q2_Greatest_Product\obj\Debug\Q2_Greatest_Product.csproj.AssemblyReference.cache
+C:\Users\Rajeev Bandi\source\repos\Q2_Greatest_Product\Q2_Greatest_Product\obj\Debug\Q2_Greatest_Product.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rajeev Bandi\source\repos\Q2_Greatest_Product\Q2_Greatest_Product\obj\Debug\Q2_Greatest_Product.csproj.CoreCompileInputs.cache
+C:\Users\Rajeev Bandi\source\repos\Q2_Greatest_Product\Q2_Greatest_Product\obj\Debug\Q2_Greatest_Product.exe
+C:\Users\Rajeev Bandi\source\repos\Q2_Greatest_Product\Q2_Greatest_Product\obj\Debug\Q2_Greatest_Product.pdb
