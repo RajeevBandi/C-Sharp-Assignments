@@ -5,7 +5,7 @@ namespace Q1_Sub_String
 {
     class ProgramExecution
     {
-        // performs the operation if the input is valied
+        // performs the operation if the input is valid
         public void StartExecution(string str1, string str2)
         {
             // UserInput method returns true or false (i.e.. wether the input is true or false)
@@ -32,7 +32,7 @@ namespace Q1_Sub_String
             }
             else
             {
-                Console.WriteLine("Invalied input");
+                Console.WriteLine("Invalid input");
             }
         }
     }

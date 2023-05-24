@@ -9,7 +9,7 @@ namespace Q1_Sub_String
         static void Main(string[] args)
         {
             // user input
-            Console.WriteLine("Enter Valied input ( ie.. string 1 length > string 2 length)");
+            Console.WriteLine("Enter Valid input ( ie.. string 1 length > string 2 length)");
             Console.Write("Enter string 1 : ");
             string str1 = Console.ReadLine();
             Console.Write("Enter string 2 : ");
