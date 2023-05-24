@@ -1,0 +1,6 @@
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\MyStringMethods\MyStringMethods\bin\Debug\MyStringMethods.dll
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\MyStringMethods\MyStringMethods\bin\Debug\MyStringMethods.pdb
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\MyStringMethods\MyStringMethods\obj\Debug\MyStringMethods.csproj.AssemblyReference.cache
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\MyStringMethods\MyStringMethods\obj\Debug\MyStringMethods.csproj.CoreCompileInputs.cache
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\MyStringMethods\MyStringMethods\obj\Debug\MyStringMethods.dll
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\MyStringMethods\MyStringMethods\obj\Debug\MyStringMethods.pdb

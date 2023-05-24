@@ -1,41 +1,53 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MyStringMethods;
+
 
 namespace Q1_Sub_String
 {
     public class SubstringClass
     {
-        int noOfTimesOccured = 0;
-        string s1, s2, temp;
-        public SubstringClass(string s1, string s2)
+        public int NoOfSubStringOccured(string str1, string str2)
         {
-            this.s1 = s1;
-            this.s2 = s2;
-            for (int i = 0; i < s1.Length - s2.Length; i++)
+
+            MyStringClass MyStringObj = new MyStringClass();
+
+            int str1Len = MyStringObj.MyStringLength(str1);
+            int str2Len = MyStringObj.MyStringLength(str2);
+
+            int cnt = 0;
+
+            for (int i = 0; i <= str1Len - str2Len; i++)
             {
-                temp = (s1.Substring(i, s2.Length));
-                if (temp == s2)
+                string temp = MyStringObj.MySubString(str1, i, str2Len);
+                if (temp == str2)
                 {
-                    noOfTimesOccured += 1;
+                    cnt++;
                 }
+
             }
+            return cnt;
         }
 
-        public void helper()
+        public int[] IndexPosition(int n, string str1, string str2)
         {
-            Console.WriteLine("No Of Times occured = " + noOfTimesOccured);
-            Console.Write("Index Position : ");
-            for (int i = 0; i < s1.Length - s2.Length; i++)
+            int[] finalIdx = new int[n];
+
+            MyStringClass MyStringObj = new MyStringClass();
+            int str1Len = MyStringObj.MyStringLength(str1);
+            int str2Len = MyStringObj.MyStringLength(str2);
+
+            int j = 0;
+
+            for (int i = 0; i <= str1Len - str2Len; i++)
             {
-                temp = (s1.Substring(i, s2.Length));
-                if (temp == s2)
+                string temp = MyStringObj.MySubString(str1, i, str2Len);
+                if (temp == str2)
                 {
-                    Console.Write(i + " ");
+                    finalIdx[j] = i;
+                    j++;
                 }
+
             }
+            return finalIdx;
         }
     }
 }

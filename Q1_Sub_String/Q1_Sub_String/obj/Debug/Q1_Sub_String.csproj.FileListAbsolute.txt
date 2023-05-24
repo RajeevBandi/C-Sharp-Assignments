@@ -6,3 +6,14 @@ C:\Users\Rajeev Bandi\source\repos\Q1_Sub_String\Q1_Sub_String\obj\Debug\Q1_Sub_
 C:\Users\Rajeev Bandi\source\repos\Q1_Sub_String\Q1_Sub_String\obj\Debug\Q1_Sub_String.csproj.CoreCompileInputs.cache
 C:\Users\Rajeev Bandi\source\repos\Q1_Sub_String\Q1_Sub_String\obj\Debug\Q1_Sub_String.exe
 C:\Users\Rajeev Bandi\source\repos\Q1_Sub_String\Q1_Sub_String\obj\Debug\Q1_Sub_String.pdb
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Q1_Sub_String\Q1_Sub_String\bin\Debug\Q1_Sub_String.exe.config
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Q1_Sub_String\Q1_Sub_String\bin\Debug\Q1_Sub_String.exe
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Q1_Sub_String\Q1_Sub_String\bin\Debug\Q1_Sub_String.pdb
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Q1_Sub_String\Q1_Sub_String\bin\Debug\MyStringMethods.dll
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Q1_Sub_String\Q1_Sub_String\bin\Debug\MyStringMethods.pdb
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Q1_Sub_String\Q1_Sub_String\obj\Debug\Q1_Sub_String.csproj.AssemblyReference.cache
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Q1_Sub_String\Q1_Sub_String\obj\Debug\Q1_Sub_String.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Q1_Sub_String\Q1_Sub_String\obj\Debug\Q1_Sub_String.csproj.CoreCompileInputs.cache
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Q1_Sub_String\Q1_Sub_String\obj\Debug\Q1_Sub_String.csproj.CopyComplete
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Q1_Sub_String\Q1_Sub_String\obj\Debug\Q1_Sub_String.exe
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Q1_Sub_String\Q1_Sub_String\obj\Debug\Q1_Sub_String.pdb

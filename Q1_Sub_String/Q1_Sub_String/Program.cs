@@ -1,17 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+
 
 namespace Q1_Sub_String
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            SubstringClass obj1 = new SubstringClass("abcabcabc", "ab");
-            obj1.helper();
+            Console.WriteLine("Enter Valied input ( ie.. string 1 length > string 2 length)");
+            Console.Write("Enter string 1 : ");
+            string str1 = Console.ReadLine();
+            Console.Write("Enter string 2 : ");
+            string str2 = Console.ReadLine();
+
+            ProgramExecution testCase1 = new ProgramExecution();
+            testCase1.StartExecution(str1, str2);
         }
     }
 }
