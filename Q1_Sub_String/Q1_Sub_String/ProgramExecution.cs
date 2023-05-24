@@ -10,7 +10,7 @@ namespace Q1_Sub_String
         {
             // UserInput method returns true or false (i.e.. wether the input is true or false)
             InputCheck input1 = new InputCheck();
-            if (input1.UserInput(str1, str2))
+            if (input1.UserInput(str1, str2) && str1 != "" && str2 !="")
             {
                 // StringClass consists of two methods 
                 // 1.NoOfSubStringOccured - returns int
