@@ -1,0 +1,35 @@
+TestCase 1:
+			Input :
+				Enter Valied input ( ie.. string 1 length > string 2 length)
+				Enter string 1 : abcdefabcdefabcdef
+				Enter string 2 : abc
+			Output :
+				No Of Sub String Occured : 3
+				Index Position : 0 6 12
+
+TestCase 2:
+			Input :
+				Enter Valied input ( ie.. string 1 length > string 2 length)
+				Enter string 1 : aaabcdefab
+				Enter string 2 : ab
+			Output :
+				No Of Sub String Occured : 2
+				Index Position : 2 8
+
+TestCase 3:
+			Input :
+				Enter Valied input ( ie.. string 1 length > string 2 length)
+				Enter string 1 : abc
+				Enter string 2 : abcdef
+			Output :
+				Wrong input
+
+
+TestCase 4:
+			Input :
+				Enter Valied input ( ie.. string 1 length > string 2 length)
+				Enter string 1 : abc
+				Enter string 2 : abc
+			Output :
+				No Of Sub String Occured : 1
+				Index Position : 0

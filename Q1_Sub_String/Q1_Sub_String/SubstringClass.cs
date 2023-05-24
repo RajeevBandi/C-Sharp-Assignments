@@ -5,6 +5,7 @@ namespace Q1_Sub_String
 {
     public class SubstringClass
     {
+        //returns the count of sub strings occured in str1
         public int NoOfSubStringOccured(string str1, string str2)
         {
 
@@ -27,6 +28,8 @@ namespace Q1_Sub_String
             return cnt;
         }
 
+
+        // Returns an arrayof substring starting indexes 
         public int[] IndexPosition(int n, string str1, string str2)
         {
             int[] finalIdx = new int[n];
