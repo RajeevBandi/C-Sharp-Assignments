@@ -32,7 +32,7 @@ namespace Q1_Sub_String
             }
             else
             {
-                Console.WriteLine("Wrong input");
+                Console.WriteLine("Invalied input");
             }
         }
     }
