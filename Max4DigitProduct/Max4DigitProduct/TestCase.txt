@@ -1,0 +1,8 @@
+Positive Test case:
+	1. Number should be greater than 999 ( ex.1234, 1254678 , 98985454879454597955459794 )
+	2. Number is made up entirely of integer characters in the range of 0 to 9 ( ex. 123456972 ).
+
+Negative Test case:
+	1. Number cannot be less than 1000
+	2. Number consists of any ' ', @, ! ,& ...(special characters or space) 
+	3. If the user Input number consists of any character other than integer characters in the range of 0 to 9 ( ex. 125qw@ ).

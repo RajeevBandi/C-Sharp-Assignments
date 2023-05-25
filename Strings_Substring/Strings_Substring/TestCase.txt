@@ -1,0 +1,76 @@
+
+Positive testCases :
+	1. String 1 length can be any ( i.e. greater than 0 )
+	2. String 2 length should be greater than 0
+	3. String 2 length should be less than or equal to string 1 length
+
+Negative TestCase : ( Invalied Input )
+	1. String 1 length is 0
+	2. String 2 length is 0
+	3. String 2 length is greater than string 1 length 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Expected Ressults:
+TestCase 1:
+			Input :
+				Enter Valied input ( ie.. string 1 length > string 2 length)
+				Enter string 1 : abcdefabcdefabcdef
+				Enter string 2 : abc
+			Output :
+				No Of Sub String Occured : 3
+				Index Position : 0 6 12
+
+TestCase 2:
+			Input :
+				Enter Valied input ( ie.. string 1 length > string 2 length)
+				Enter string 1 : aaabcdefab
+				Enter string 2 : ab
+			Output :
+				No Of Sub String Occured : 2
+				Index Position : 2 8
+
+TestCase 3:
+			Input :
+				Enter Valied input ( ie.. string 1 length > string 2 length)
+				Enter string 1 : abc
+				Enter string 2 : abcdef
+			Output :
+				Invalied input
+
+
+TestCase 4:
+			Input :
+				Enter Valied input ( ie.. string 1 length > string 2 length)
+				Enter string 1 : abc
+				Enter string 2 : abc
+			Output :
+				No Of Sub String Occured : 1
+				Index Position : 0
+
+
+TestCase 5:
+			Input :
+				Enter Valied input ( ie.. string 1 length > string 2 length)
+				Enter string 1 : 
+				Enter string 2 : 
+			Output :
+				Invalied input

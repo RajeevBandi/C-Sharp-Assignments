@@ -1,0 +1,11 @@
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Max4DigitProduct\Max4DigitProduct\bin\Debug\Max4DigitProduct.exe.config
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Max4DigitProduct\Max4DigitProduct\bin\Debug\Max4DigitProduct.exe
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Max4DigitProduct\Max4DigitProduct\bin\Debug\Max4DigitProduct.pdb
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Max4DigitProduct\Max4DigitProduct\bin\Debug\MyStringMethods.dll
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Max4DigitProduct\Max4DigitProduct\bin\Debug\MyStringMethods.pdb
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Max4DigitProduct\Max4DigitProduct\obj\Debug\Max4DigitProduct.csproj.AssemblyReference.cache
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Max4DigitProduct\Max4DigitProduct\obj\Debug\Max4DigitProduct.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Max4DigitProduct\Max4DigitProduct\obj\Debug\Max4DigitProduct.csproj.CoreCompileInputs.cache
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Max4DigitProduct\Max4DigitProduct\obj\Debug\Max4DigitProduct.csproj.CopyComplete
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Max4DigitProduct\Max4DigitProduct\obj\Debug\Max4DigitProduct.exe
+C:\Users\Rajeev Bandi\C-Sharp-Assignments\Max4DigitProduct\Max4DigitProduct\obj\Debug\Max4DigitProduct.pdb
