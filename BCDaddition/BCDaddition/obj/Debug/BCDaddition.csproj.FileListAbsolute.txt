@@ -1,0 +1,21 @@
+C:\Users\DELL\source\repos\BCDaddition\BCDaddition\bin\Debug\BCDaddition.exe.config
+C:\Users\DELL\source\repos\BCDaddition\BCDaddition\bin\Debug\BCDaddition.exe
+C:\Users\DELL\source\repos\BCDaddition\BCDaddition\bin\Debug\BCDaddition.pdb
+C:\Users\DELL\source\repos\BCDaddition\BCDaddition\obj\Debug\BCDaddition.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\BCDaddition\BCDaddition\obj\Debug\BCDaddition.csproj.SuggestedBindingRedirects.cache
+C:\Users\DELL\source\repos\BCDaddition\BCDaddition\obj\Debug\BCDaddition.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\BCDaddition\BCDaddition\obj\Debug\BCDaddition.exe
+C:\Users\DELL\source\repos\BCDaddition\BCDaddition\obj\Debug\BCDaddition.pdb
+C:\Users\DELL\source\repos\BCDaddition\BCDaddition\bin\Debug\MyStringFunctions.dll
+C:\Users\DELL\source\repos\BCDaddition\BCDaddition\bin\Debug\MyStringFunctions.pdb
+C:\Users\DELL\source\repos\BCDaddition\BCDaddition\obj\Debug\BCDaddition.csproj.CopyComplete
+C:\Users\Rajeev Bandi\Desktop\Q3\BCDaddition\BCDaddition\bin\Debug\BCDaddition.exe.config
+C:\Users\Rajeev Bandi\Desktop\Q3\BCDaddition\BCDaddition\bin\Debug\BCDaddition.exe
+C:\Users\Rajeev Bandi\Desktop\Q3\BCDaddition\BCDaddition\bin\Debug\BCDaddition.pdb
+C:\Users\Rajeev Bandi\Desktop\Q3\BCDaddition\BCDaddition\bin\Debug\MyStringFunctions.pdb
+C:\Users\Rajeev Bandi\Desktop\Q3\BCDaddition\BCDaddition\obj\Debug\BCDaddition.csproj.AssemblyReference.cache
+C:\Users\Rajeev Bandi\Desktop\Q3\BCDaddition\BCDaddition\obj\Debug\BCDaddition.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rajeev Bandi\Desktop\Q3\BCDaddition\BCDaddition\obj\Debug\BCDaddition.csproj.CoreCompileInputs.cache
+C:\Users\Rajeev Bandi\Desktop\Q3\BCDaddition\BCDaddition\obj\Debug\BCDaddition.csproj.CopyComplete
+C:\Users\Rajeev Bandi\Desktop\Q3\BCDaddition\BCDaddition\obj\Debug\BCDaddition.exe
+C:\Users\Rajeev Bandi\Desktop\Q3\BCDaddition\BCDaddition\obj\Debug\BCDaddition.pdb

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MyStringMethods",
+    "\\MyStringMethods\\MyStringMethods"
   ],
-  "SelectedNode": "\\MyStringMethods.sln",
+  "SelectedNode": "\\MyStringMethods\\MyStringMethods\\MyStringClass.cs",
   "PreviewInSolutionExplorer": false
 }

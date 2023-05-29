@@ -1,0 +1,10 @@
+Positive Test Cases:
+	1. The lengths of the specified inputs must be greater than 0.
+	2. May or may not include a fractional portion.
+	3. If the input only contains fractional values and no integer values
+	4. If the input only contains integer values and no fractional values
+
+Negative Test  Cases:
+	1. If the lengths of the specified inputs must be greater than 0.
+	2. If the input contains no integer value and no fractional value (i.e.. ".")
+	3. If the input contain any character other than (0-9) and '.' 
