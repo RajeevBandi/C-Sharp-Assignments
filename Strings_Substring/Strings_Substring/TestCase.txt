@@ -1,5 +1,5 @@
 
-Positive testCases :
+Positive TestCases :
 	1. String 1 length can be any ( i.e. greater than 0 )
 	2. String 2 length should be greater than 0
 	3. String 2 length should be less than or equal to string 1 length
