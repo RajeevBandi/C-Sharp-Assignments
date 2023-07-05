@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rajeev Bandi\\source\\repos\\InternalApp\\DataModel\\DataModel.csproj",
+      "projectUniqueName": "C:\\Users\\Rajeev Bandi\\source\\repos\\C-Sharp-Assignments\\InternalApp\\DataModel\\DataModel.csproj",
       "projectName": "DataModel",
-      "projectPath": "C:\\Users\\Rajeev Bandi\\source\\repos\\InternalApp\\DataModel\\DataModel.csproj",
+      "projectPath": "C:\\Users\\Rajeev Bandi\\source\\repos\\C-Sharp-Assignments\\InternalApp\\DataModel\\DataModel.csproj",
       "packagesPath": "C:\\Users\\Rajeev Bandi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rajeev Bandi\\source\\repos\\InternalApp\\DataModel\\obj\\",
+      "outputPath": "C:\\Users\\Rajeev Bandi\\source\\repos\\C-Sharp-Assignments\\InternalApp\\DataModel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

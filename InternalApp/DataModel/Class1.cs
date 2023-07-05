@@ -1,9 +1,5 @@
-﻿
-namespace DataModel
+﻿namespace DataModel
 {
-    /// <summary>
-    /// Contains the input Properties 
-    /// </summary>
     public class User
     {
         public string Username { get; set; }

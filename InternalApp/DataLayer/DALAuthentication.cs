@@ -59,8 +59,6 @@ namespace DataLayer
             DataSource.userDetails.Add(User);
         }
 
-
-
         /// <summary>
         /// This method verifies that the username match those in the database.
         /// </summary>
