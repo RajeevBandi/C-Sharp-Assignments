@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "G8GJsDDsxKK+bQU2Gm5Yzw80EjORK9swQkCUssuzEhWtQKV4yHN+khCLe2Ch3TJNuqYejvGAsbUny52MKxs+tA==",
+  "dgSpecHash": "nzg19cc5NGXvxtMsQwoNatIekVmcH7ZXEb8JDsAK5s+n47P2xoCfL5pyC/0SG7dZbVgcrTzuPm8A3dKarJnGIQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rajeev Bandi\\source\\repos\\C-Sharp-Assignments\\InternalApp\\ConsoleApp\\ConsoleApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Rajeev Bandi\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Rajeev Bandi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

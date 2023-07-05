@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "iYq4PRUpCoLd6HrWx42yVflBPaFYQrBVBW7tknZZvNwJaCCrdVJgq0KNVqSQeirtoeUDssUO5UfLZhI805K5LQ==",
+  "dgSpecHash": "PGEJ25VQVLN/l/3Fhobemq1d59JyfRQ9rmoSUnJkmr5dXd9cJecjiXOybjp5VCpwOY3NzYHvi+bCuFsnqdZ/vQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rajeev Bandi\\source\\repos\\C-Sharp-Assignments\\InternalApp\\BusinessModel\\BusinessModel.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Rajeev Bandi\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Rajeev Bandi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -10,7 +10,7 @@ namespace BusinessModel
                                         "For login page enter : 1 \nFor Registration page enter : 2 \nFor Exit Application enter : 3\n";
         public static string loginSuccess = "\nLogin Successful \nFor Logout Enter : 3\n";
         public static string logoutSuccess = "\nLogout Successful\n";
-        public static string invalidCredentials = "\nInvalid Credentials \nFor forgot password page enter : 4\n ";
+        public static string invalidCredentials = "\nInvalid Credentials \nFor forgot password page enter : 4\n";
         public static string passwordUpdated = "\nPassword Updated successfully\n";
         public static string passwordUpdateFailed = "\nInvalid Credentials\n";
         public static string emptyDB = "\nNobody Registered yet, so Register now \nData Base is empty\n";

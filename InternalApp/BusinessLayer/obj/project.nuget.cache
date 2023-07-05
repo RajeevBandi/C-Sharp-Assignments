@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qphv+cz6pKZCogYNC2iXKtTdtPn2rBMyIyN1gr9JGp7Vsex0/KUasHn1bp/cLUufKeXWesTisE0SANEXxcg2MA==",
+  "dgSpecHash": "HpvPiWzCTraoTLfLzMQ/AVbz/gnlroD2lIP49FQNjFWnbg5U2WusXaylc1xbXVB4MJpmupQTU9i6ywwpiu+hMw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rajeev Bandi\\source\\repos\\C-Sharp-Assignments\\InternalApp\\BusinessLayer\\BusinessLayer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Rajeev Bandi\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Rajeev Bandi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -49,3 +49,4 @@ C:\Users\Rajeev Bandi\source\repos\C-Sharp-Assignments\InternalApp\ConsoleApp\ob
 C:\Users\Rajeev Bandi\source\repos\C-Sharp-Assignments\InternalApp\ConsoleApp\obj\Debug\net7.0\ConsoleApp.pdb
 C:\Users\Rajeev Bandi\source\repos\C-Sharp-Assignments\InternalApp\ConsoleApp\obj\Debug\net7.0\ConsoleApp.genruntimeconfig.cache
 C:\Users\Rajeev Bandi\source\repos\C-Sharp-Assignments\InternalApp\ConsoleApp\obj\Debug\net7.0\ref\ConsoleApp.dll
+C:\Users\Rajeev Bandi\source\repos\C-Sharp-Assignments\InternalApp\ConsoleApp\bin\Debug\net7.0\AutoMapper.dll

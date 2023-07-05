@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0PpuY9jZoOJYalNY+SLYL/Lx1WfhtiryuAhHz5QMKtMp0JaJsl7q7vLiAFlFrcZ/QLsBKrAnz1nBkOqrWXvUMA==",
+  "dgSpecHash": "0Aib5TookFJyjbazXHIVZueIq7gF0gsHoUYqFwey0wHo99rUiOZNFUfrJnW0IDJw7p0Xr1aW6UPuD+ps29A3Fw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rajeev Bandi\\source\\repos\\C-Sharp-Assignments\\InternalApp\\DataLayer\\DataLayer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Rajeev Bandi\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Rajeev Bandi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
