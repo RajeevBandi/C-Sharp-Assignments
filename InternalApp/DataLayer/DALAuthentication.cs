@@ -70,6 +70,12 @@ namespace DataLayer
             return false;
         }
 
+
+        /// <summary>
+        /// Conversion of business models object to data models object.
+        /// </summary>
+        /// <param name="usersObj"></param>
+        /// <returns></returns>
         //public DM.User UserConverter(BM.User usersObj)
         //{
         //    DM.User User = new DM.User();
@@ -80,7 +86,7 @@ namespace DataLayer
         //    return User;
         //}
 
-        //public U UserConverter<T,U>(T usersObj) where U:DM.User,new() where T:BM.User,new()
+        //public U UserConverter<T, U>(T usersObj) where U : DM.User, new() where T : BM.User, new()
         //{
         //    U convertedUser = new U();
         //    convertedUser.Username = usersObj.Username;
@@ -112,6 +118,13 @@ namespace DataLayer
         //    }
         //}
 
+        /// <summary>
+        /// implementing object conversion using GetProperties
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <typeparam name="U"></typeparam>
+        /// <param name="userObj"></param>
+        /// <returns></returns>
         //public U ConvertModel<T, U>(T userObj) where U : new()
         //{
         //    var resultObj = new U();
@@ -119,7 +132,7 @@ namespace DataLayer
         //    var TProperties = typeof(T).GetProperties();
         //    var UProperties = typeof(U).GetProperties();
 
-        //    foreach(var iterator in TProperties)
+        //    foreach (var iterator in TProperties)
         //    {
         //        var property = UProperties.FirstOrDefault(findProperty => findProperty.Name == iterator.Name && findProperty.PropertyType == iterator.PropertyType);
 
@@ -136,6 +149,13 @@ namespace DataLayer
         //    return resultObj;
         //}
 
+        /// <summary>
+        /// implementing object conversion using automapper 
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <typeparam name="U"></typeparam>
+        /// <param name="userObj"></param>
+        /// <returns></returns>
         public U ConvertModel<T, U>(T userObj) where U : new()
         {
             var config = new MapperConfiguration(cfg => cfg.CreateMap<T, U>());
