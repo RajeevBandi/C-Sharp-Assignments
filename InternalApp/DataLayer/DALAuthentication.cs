@@ -119,7 +119,7 @@ namespace DataLayer
         //}
 
         /// <summary>
-        /// implementing object conversion using GetProperties
+        /// implementing object conversion using GetProperties methods
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <typeparam name="U"></typeparam>
