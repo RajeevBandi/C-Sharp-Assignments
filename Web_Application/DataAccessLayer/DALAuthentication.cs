@@ -11,50 +11,75 @@ namespace DataAccessLayer
     internal class DALAuthentication : IDAL
     {
         /// <summary>
-        /// This method verifies that the username and password match those in the database.
+        /// This method verifies that the username in the database.
         /// </summary>
         /// <param name="userObj"></param>
         /// <returns></returns>
-        public string CheckValidLoginDetails(UserInfo userObj)
+        public string CheckValidUser(UserInfo userObj)
         {
             string _Username = userObj.Username;
-            string password = userObj.EncryptedPassword;
-
             string conString = ConfigurationManager.ConnectionStrings["MyDB"].ConnectionString;
 
             try
             {
-
                 using (SqlConnection con = new SqlConnection(conString))
                 {
                     con.Open();
-                    SqlCommand cmd = new SqlCommand(SqlQueries.validateUsernamePasswordQuery, con);
+                    SqlCommand cmd = new SqlCommand(SqlQueries.validateUsernameQuery, con);
                     cmd.Parameters.AddWithValue("username", _Username);
-                    cmd.Parameters.AddWithValue("password", password);
                     SqlDataReader dr = cmd.ExecuteReader();
 
                     if (dr.Read())
                     {
                         con.Close();
-                        return StringLiterals.loginSuccess;
+                        return StringLiterals.userExist;
                     }
                     con.Close();
                     return StringLiterals.loginUnSuccess;
                 }
             }
-            catch (SqlException)
+            catch (SqlException ex)
             {
-                return StringLiterals.sqlException;
+                return ex.ToString();
             }
-            catch (InvalidOperationException)
+            catch (InvalidOperationException ex)
             {
-                return StringLiterals.inValidOperationException;
+                return ex.ToString();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return StringLiterals.unExpectedException;
+                return ex.ToString();
             }
         }
+
+        /// <summary>
+        /// This method fetches the user's password from the database.
+        /// </summary>
+        /// <param name="userObj"></param>
+        /// <returns></returns>
+        public string GetUserPassword(UserInfo userObj)
+        {
+            string _Username = userObj.Username;
+            string conString = ConfigurationManager.ConnectionStrings["MyDB"].ConnectionString;
+
+            using (SqlConnection con = new SqlConnection(conString))
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand(SqlQueries.SelectPasswordQuery, con);
+                cmd.Parameters.AddWithValue("username", _Username);
+                var EncryptedPassword = cmd.ExecuteScalar();
+
+                if (EncryptedPassword != null)
+                {
+                    con.Close();
+                    return EncryptedPassword.ToString();
+                }
+                return string.Empty;
+            }
+
+        }
+
+
 
         /// <summary>
         /// User password is updated to database.
@@ -72,8 +97,6 @@ namespace DataAccessLayer
 
             try
             {
-
-
                 using (SqlConnection con = new SqlConnection(conString))
                 {
                     con.Open();
@@ -98,17 +121,17 @@ namespace DataAccessLayer
                     return StringLiterals.emailUserNameMisMatch;
                 }
             }
-            catch (SqlException)
+            catch (SqlException ex)
             {
-                return StringLiterals.sqlException;
+                return ex.ToString();
             }
-            catch (InvalidOperationException)
+            catch (InvalidOperationException ex)
             {
-                return StringLiterals.inValidOperationException;
+                return ex.ToString();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return StringLiterals.unExpectedException;
+                return ex.ToString();
             }
         }
 
@@ -127,7 +150,6 @@ namespace DataAccessLayer
 
             try
             {
-
                 using (SqlConnection con = new SqlConnection(conString))
                 {
                     con.Open();
@@ -152,17 +174,17 @@ namespace DataAccessLayer
                     return StringLiterals.userExist;
                 }
             }
-            catch (SqlException)
+            catch (SqlException ex)
             {
-                return StringLiterals.sqlException;
+                return ex.ToString();
             }
-            catch (InvalidOperationException)
+            catch (InvalidOperationException ex)
             {
-                return StringLiterals.inValidOperationException;
+                return ex.ToString();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return StringLiterals.unExpectedException;
+                return ex.ToString();
             }
         }
     }

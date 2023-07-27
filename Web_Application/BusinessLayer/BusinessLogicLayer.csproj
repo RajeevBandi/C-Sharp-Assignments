@@ -43,7 +43,7 @@
   <ItemGroup>
     <Compile Include="BALAuthentication.cs" />
     <Compile Include="BALFactory.cs" />
-    <Compile Include="Encryption.cs" />
+    <Compile Include="EncryptDecrypt.cs" />
     <Compile Include="IBAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

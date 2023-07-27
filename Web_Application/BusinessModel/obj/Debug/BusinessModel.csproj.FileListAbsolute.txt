@@ -4,3 +4,9 @@ C:\Users\Rajeev Bandi\source\repos\Web_Application\BusinessModel\obj\Debug\Busin
 C:\Users\Rajeev Bandi\source\repos\Web_Application\BusinessModel\obj\Debug\BusinessModel.csproj.CoreCompileInputs.cache
 C:\Users\Rajeev Bandi\source\repos\Web_Application\BusinessModel\obj\Debug\BusinessModel.dll
 C:\Users\Rajeev Bandi\source\repos\Web_Application\BusinessModel\obj\Debug\BusinessModel.pdb
+C:\Users\Rajeev Bandi\source\repos\C-Sharp-Assignments\Web_Application\BusinessModel\bin\Debug\BusinessModel.dll
+C:\Users\Rajeev Bandi\source\repos\C-Sharp-Assignments\Web_Application\BusinessModel\bin\Debug\BusinessModel.pdb
+C:\Users\Rajeev Bandi\source\repos\C-Sharp-Assignments\Web_Application\BusinessModel\obj\Debug\BusinessModel.csproj.AssemblyReference.cache
+C:\Users\Rajeev Bandi\source\repos\C-Sharp-Assignments\Web_Application\BusinessModel\obj\Debug\BusinessModel.csproj.CoreCompileInputs.cache
+C:\Users\Rajeev Bandi\source\repos\C-Sharp-Assignments\Web_Application\BusinessModel\obj\Debug\BusinessModel.dll
+C:\Users\Rajeev Bandi\source\repos\C-Sharp-Assignments\Web_Application\BusinessModel\obj\Debug\BusinessModel.pdb

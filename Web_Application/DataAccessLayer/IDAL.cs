@@ -6,7 +6,8 @@ namespace DataAccessLayer
     /// </summary>
     public interface IDAL
     {
-        string CheckValidLoginDetails(UserInfo userObj);
+        string CheckValidUser(UserInfo userObj);
+        string GetUserPassword(UserInfo userObj);
         string UpdatePassword(UserInfo userObj);
         string SaveUser(UserInfo userObj);
 

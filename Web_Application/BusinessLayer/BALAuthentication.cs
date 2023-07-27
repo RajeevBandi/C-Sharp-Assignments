@@ -14,13 +14,29 @@ namespace BusinessLogicLayer
         {
             if (userObj.Username != string.Empty && userObj.Password != string.Empty)
             {
-                Encryption EncryptionObj = new Encryption();
-                userObj.EncryptedPassword = EncryptionObj.StringEncryption(userObj.Password);
+
 
                 DALFactory DALFactoryObj = new DALFactory();
                 IDAL DALObj = DALFactoryObj.DALObjCreation();
 
-                return DALObj.CheckValidLoginDetails(userObj);
+                string EncryptedPassword = string.Empty;
+                string DecryptedPassword = string.Empty;
+                string result = DALObj.CheckValidUser(userObj);
+
+                if (result == StringLiterals.userExist)
+                {
+                    EncryptedPassword = DALObj.GetUserPassword(userObj);
+
+                    EncryptDecrypt EncryptionObj = new EncryptDecrypt();
+                    DecryptedPassword = EncryptionObj.StringEncryptDecrypt(EncryptedPassword);
+
+                    if (DecryptedPassword == userObj.Password)
+                    {
+                        return StringLiterals.loginSuccess;
+                    }
+                    return StringLiterals.loginUnSuccess;
+                }
+                return result;
             }
             return StringLiterals.fieldsEmpty;
         }
@@ -34,8 +50,8 @@ namespace BusinessLogicLayer
         {
             if (userObj.Username != string.Empty && userObj.NewPassword != string.Empty && userObj.Email != string.Empty)
             {
-                Encryption EncryptObj = new Encryption();
-                userObj.EncryptedPassword = EncryptObj.StringEncryption(userObj.NewPassword);
+                EncryptDecrypt EncryptObj = new EncryptDecrypt();
+                userObj.EncryptedPassword = EncryptObj.StringEncryptDecrypt(userObj.NewPassword);
 
                 DALFactory DALFactoryObj = new DALFactory();
                 IDAL DALObj = DALFactoryObj.DALObjCreation();
@@ -54,8 +70,8 @@ namespace BusinessLogicLayer
         {
             if (userObj.Username != string.Empty && userObj.Password != string.Empty && userObj.Email != string.Empty)
             {
-                Encryption EncryptionObj = new Encryption();
-                userObj.EncryptedPassword = EncryptionObj.StringEncryption(userObj.Password);
+                EncryptDecrypt EncryptionObj = new EncryptDecrypt();
+                userObj.EncryptedPassword = EncryptionObj.StringEncryptDecrypt(userObj.Password);
 
                 DALFactory DALFactoryObj = new DALFactory();
                 IDAL DALObj = DALFactoryObj.DALObjCreation();
