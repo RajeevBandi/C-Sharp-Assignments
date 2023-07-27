@@ -1,0 +1,11 @@
+C:\Users\Rajeev Bandi\source\repos\Web_Application\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Rajeev Bandi\source\repos\Web_Application\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Rajeev Bandi\source\repos\Web_Application\BusinessLayer\bin\Debug\BusinessModel.dll
+C:\Users\Rajeev Bandi\source\repos\Web_Application\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Rajeev Bandi\source\repos\Web_Application\BusinessLayer\bin\Debug\BusinessModel.pdb
+C:\Users\Rajeev Bandi\source\repos\Web_Application\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Rajeev Bandi\source\repos\Web_Application\BusinessLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\Rajeev Bandi\source\repos\Web_Application\BusinessLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Rajeev Bandi\source\repos\Web_Application\BusinessLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+C:\Users\Rajeev Bandi\source\repos\Web_Application\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\Rajeev Bandi\source\repos\Web_Application\BusinessLayer\obj\Debug\BusinessLayer.pdb
